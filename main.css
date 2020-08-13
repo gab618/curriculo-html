@@ -1,7 +1,6 @@
 .container {
   height: 842px;
   width: 595px;
-  background: red;
   display: flex;
   flex-direction: column;
 }
@@ -58,8 +57,62 @@
   margin-bottom: 7px;
 }
 
-.intro p {
+.topic p {
   font-family: Red Hat Display;
   font-size: 12px;
   text-align: justify;
+}
+
+.topic {
+  margin-bottom: 29px;
+}
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.academy,
+.work {
+  width: 47.1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.history strong {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.history span {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+}
+.history ul {
+  margin-top: 5px;
+}
+
+.history li {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.school,
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.school:not(:last-child) {
+  margin-bottom: 16px;
 }
